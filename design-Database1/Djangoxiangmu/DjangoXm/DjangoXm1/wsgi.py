@@ -1,5 +1,5 @@
 """
-WSGI config for DjangoXm project.
+WSGI config for DjangoXm1 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'DjangoXm.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'DjangoXm1.settings')
 
 application = get_wsgi_application()
